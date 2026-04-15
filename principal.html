@@ -3,42 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <title>Controle de Gastos</title>
+
+    <!-- arquivo de estilos -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <div class="container">
-        <h1>Controle de Gastos</h1>
+<div class="container">
+    <h1>Controle de Gastos</h1>
 
-        <form id="formGasto">
-            <input type="text" id="descricao" placeholder="Descrição (ex: Almoço)" required>
-            <input type="number" id="valor" placeholder="Valor (R$)" step="0.01" required>
-            
+    <!-- formulário de entrada -->
+    <form id="formGasto">
+        
+        <div class="campo">
+            <label for="descricao">Descrição</label>
+            <input type="text" id="descricao" required>
+        </div>
+
+        <div class="campo">
+            <label for="valor">Valor (R$)</label>
+            <input type="number" id="valor" step="0.01" required>
+        </div>
+
+        <div class="campo">
+            <label for="categoria">Categoria</label>
             <select id="categoria" required>
-                <option value="">Categoria</option>
+                <option value="">Selecione</option>
                 <option value="Alimentação">Alimentação</option>
                 <option value="Transporte">Transporte</option>
                 <option value="Outros">Outros</option>
             </select>
+        </div>
 
-            <button type="submit">Adicionar</button>
-        </form>
+        <!-- botão de adicionar -->
+        <button type="submit">Adicionar</button>
+    </form>
 
-        <h2>Total do Mês: R$ <span id="total">0.00</span></h2>
+    <!-- total do mês -->
+    <h2>Total do Mês: R$ <span id="total">0.00</span></h2>
 
-        <table>
-            <thead>
-                <tr>
-                    <th>Descrição</th>
-                    <th>Categoria</th>
-                    <th>Valor</th>
-                    <th>Ações</th>
-                </tr>
-            </thead>
-            <tbody id="listaGastos"></tbody>
-        </table>
-    </div>
+    <!-- tabela de gastos -->
+    <table>
+        <thead>
+            <tr>
+                <th>Descrição</th>
+                <th>Categoria</th>
+                <th>Valor</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody id="listaGastos"></tbody>
+    </table>
+</div>
 
-    <script src="script.js" defer></script>
+<!-- script com defer para carregar depois do HTML -->
+<script src="script.js" defer></script>
+
 </body>
 </html>

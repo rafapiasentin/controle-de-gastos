@@ -1,3 +1,4 @@
+/* estilo geral da página */
 body {
     font-family: Arial, sans-serif;
     background: #f4f4f4;
@@ -5,6 +6,7 @@ body {
     justify-content: center;
 }
 
+/* caixa principal */
 .container {
     background: white;
     padding: 20px;
@@ -14,47 +16,69 @@ body {
     box-shadow: 0 0 10px #ccc;
 }
 
+/* título */
 h1 {
     text-align: center;
 }
 
+/* formulário em coluna */
 form {
     display: flex;
+    flex-direction: column;
     gap: 10px;
     margin-bottom: 20px;
 }
 
+/* agrupamento de campos */
+.campo {
+    display: flex;
+    flex-direction: column;
+}
+
+/* inputs e botão */
 input, select, button {
     padding: 10px;
     border-radius: 5px;
     border: 1px solid #ccc;
 }
 
+/* efeito ao focar no campo */
+input:focus, select:focus {
+    outline: none;
+    border-color: #28a745;
+}
+
+/* botão principal */
 button {
     background: #28a745;
     color: white;
     cursor: pointer;
 }
 
+/* hover do botão */
 button:hover {
     background: #218838;
 }
 
+/* tabela */
 table {
     width: 100%;
     border-collapse: collapse;
 }
 
+/* células */
 th, td {
     padding: 10px;
     border-bottom: 1px solid #ddd;
     text-align: center;
 }
 
+/* destaque para valores altos */
 .alto {
     background-color: #ffcccc;
 }
 
+/* botão excluir */
 .btn-excluir {
     background: red;
     color: white;
@@ -65,4 +89,17 @@ th, td {
 
 .btn-excluir:hover {
     background: darkred;
+}
+
+/* botão editar */
+.btn-editar {
+    background: orange;
+    color: white;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.btn-editar:hover {
+    background: darkorange;
 }
