@@ -32,19 +32,17 @@ Com uma interface limpa e intuitiva, o usuário pode:
 
 ## 📂 Estrutura do Projeto
 
-```bash
 controle-de-gastos/
 │
 ├── index.html
 ├── style.css
 └── script.js
-```
+
 
 ---
 
 ## ▶️ Como Executar
 
-```bash
 # Clone o repositório
 git clone https://github.com/rafapiasentin/controle-de-gastos/tree/main?tab=readme-ov-file
 
@@ -53,7 +51,6 @@ cd controle-de-gastos
 
 # Abra no navegador
 index.html
-```
 
 ✔ Não precisa instalar nada — funciona direto no navegador.
 
@@ -79,4 +76,4 @@ index.html
 
 ## 👨‍💻 Autor
 
-Desenvolvido por **RafaaPia**
+Desenvolvido por [Rafael Piasentin](https://www.linkedin.com/in/rafael-piasentin-b22149256/)
