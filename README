@@ -50,7 +50,7 @@ controle-de-gastos/
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/controle-de-gastos.git
+git clone https://github.com/rafapiasentin/controle-de-gastos/tree/main?tab=readme-ov-file
 
 # Acesse a pasta
 cd controle-de-gastos
