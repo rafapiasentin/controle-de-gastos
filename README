@@ -44,7 +44,7 @@ controle-de-gastos/
 ## ▶️ Como Executar
 
 # Clone o repositório
-git clone https://github.com/rafapiasentin/controle-de-gastos/tree/main?tab=readme-ov-file
+git clone https://github.com/rafapiasentin/controle-de-gastos
 
 # Acesse a pasta
 cd controle-de-gastos
