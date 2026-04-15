@@ -1,0 +1,105 @@
+# 💰 Controle de Gastos
+
+---
+
+## 📸 Preview do Projeto
+
+---
+
+## 📌 Sobre o Projeto
+
+O **Controle de Gastos** é uma aplicação web simples desenvolvida com o objetivo de ajudar no gerenciamento de despesas pessoais.
+
+Com uma interface limpa e intuitiva, o usuário pode:
+
+* Registrar gastos rapidamente
+* Visualizar todas as despesas em uma tabela
+* Acompanhar o total gasto no mês
+* Excluir itens facilmente
+
+---
+
+## 🚀 Funcionalidades
+
+✨ Adição de novos gastos
+📊 Atualização automática do total
+🧾 Listagem dinâmica em tabela
+🚨 Destaque para gastos acima de R$100
+❌ Remoção de despesas
+🎯 Interface simples e funcional
+
+---
+
+## 🛠️ Tecnologias Utilizadas
+
+---
+
+## 📂 Estrutura do Projeto
+
+```bash
+controle-de-gastos/
+│
+├── index.html
+├── style.css
+└── script.js
+```
+
+---
+
+## ▶️ Como Executar
+
+```bash
+# Clone o repositório
+git clone https://github.com/seu-usuario/controle-de-gastos.git
+
+# Acesse a pasta
+cd controle-de-gastos
+
+# Abra no navegador
+index.html
+```
+
+✔ Não precisa instalar nada — funciona direto no navegador.
+
+---
+
+## 💡 Melhorias Futuras
+
+* 💾 Persistência com LocalStorage
+* 📊 Dashboard com gráficos
+* 📱 Design responsivo
+* ✏️ Edição completa de itens
+* 🔐 Sistema de login
+
+---
+
+## 📈 Roadmap
+
+* [x] Cadastro de gastos
+* [x] Cálculo automático
+* [x] Exclusão de itens
+
+---
+
+## 👨‍💻 Autor
+
+Desenvolvido por **RafaaPia**
+
+---
+
+## 📄 Licença
+
+Este projeto está sob a licença MIT.
+Sinta-se livre para usar, estudar e melhorar 🚀
+
+---
+
+## ⭐ Apoie o Projeto
+
+Se você gostou do projeto:
+
+⭐ Dê uma estrela no repositório
+📢 Compartilhe com amigos
+💡 Sugira melhorias
+
+---

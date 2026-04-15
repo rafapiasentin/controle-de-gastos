@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Controle de Gastos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Controle de Gastos</h1>
+
+        <!-- FORMULÁRIO -->
+        <form id="formGasto">
+            <input type="text" id="descricao" placeholder="Descrição (ex: Almoço)" required>
+            <input type="number" id="valor" placeholder="Valor (R$)" step="0.01" required>
+            
+            <select id="categoria" required>
+                <option value="">Categoria</option>
+                <option value="Alimentação">Alimentação</option>
+                <option value="Transporte">Transporte</option>
+                <option value="Outros">Outros</option>
+            </select>
+
+            <button type="submit">Adicionar</button>
+        </form>
+
+        <!-- TOTAL -->
+        <h2>Total do Mês: R$ <span id="total">0.00</span></h2>
+
+        <!-- LISTA -->
+        <table>
+            <thead>
+                <tr>
+                    <th>Descrição</th>
+                    <th>Categoria</th>
+                    <th>Valor</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody id="listaGastos"></tbody>
+        </table>
+    </div>
+
+    <!-- IMPORTANTE: defer -->
+    <script src="script.js" defer></script>
+</body>
+</html>
