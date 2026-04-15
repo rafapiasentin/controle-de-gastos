@@ -55,7 +55,6 @@ document.addEventListener("DOMContentLoaded", function () {
         totalSpan.textContent = total.toFixed(2);
     }
 
-    // EVENTO DE EXCLUSÃO (melhor prática)
     lista.addEventListener("click", function (e) {
         if (e.target.classList.contains("btn-excluir")) {
             const index = e.target.getAttribute("data-index");

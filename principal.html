@@ -10,7 +10,6 @@
     <div class="container">
         <h1>Controle de Gastos</h1>
 
-        <!-- FORMULÁRIO -->
         <form id="formGasto">
             <input type="text" id="descricao" placeholder="Descrição (ex: Almoço)" required>
             <input type="number" id="valor" placeholder="Valor (R$)" step="0.01" required>
@@ -25,10 +24,8 @@
             <button type="submit">Adicionar</button>
         </form>
 
-        <!-- TOTAL -->
         <h2>Total do Mês: R$ <span id="total">0.00</span></h2>
 
-        <!-- LISTA -->
         <table>
             <thead>
                 <tr>
@@ -42,7 +39,6 @@
         </table>
     </div>
 
-    <!-- IMPORTANTE: defer -->
     <script src="script.js" defer></script>
 </body>
 </html>

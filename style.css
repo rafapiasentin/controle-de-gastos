@@ -51,12 +51,10 @@ th, td {
     text-align: center;
 }
 
-/* Destaque valores altos */
 .alto {
     background-color: #ffcccc;
 }
 
-/* Botão excluir */
 .btn-excluir {
     background: red;
     color: white;
